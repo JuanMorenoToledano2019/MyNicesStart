@@ -1,5 +1,8 @@
 package com.dam.mynicesstart;
 
-public class MainActivity2
-{
+import androidx.appcompat.app.AppCompatActivity;
+
+public class MainActivity2 extends AppCompatActivity {
+
+
 }
