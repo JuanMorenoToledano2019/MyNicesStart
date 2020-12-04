@@ -76,10 +76,16 @@
         android:id="@+id/signup_text"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="30dp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
         android:text="@string/signup_text"
 
         />
+
+
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
