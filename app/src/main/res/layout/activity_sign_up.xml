@@ -4,23 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivityAlco"
+    tools:context=".SignUpActivity"
     android:background="@color/colorAccent">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/backgroundImagen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/girl"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:scaleType="fitStart"/>
+        android:contentDescription="@string/backimage_descripcion"
+        android:scaleType="fitStart" />
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="88dp"
-        android:layout_height="88dp"
-        android:layout_marginTop="36dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -38,6 +39,7 @@
         app:startIconDrawable="@drawable/bed">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/emailcampo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@android:color/white" />
@@ -64,7 +66,10 @@
 
 
     <com.google.android.material.button.MaterialButton
-        android:text="Signup"
+
+        android:id="@+id/signupbutton"
+
+
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout4"
         android:layout_width="match_parent"
         android:layout_height="48dp"
@@ -72,7 +77,11 @@
         style="@style/ButtonStraight"
         >
 
+
+
     </com.google.android.material.button.MaterialButton>
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
