@@ -8,7 +8,9 @@
 Splash | Login
 -------|--------
 ![](img/splash.png) | ![](img/login.PNG)
-SignUP  |
+Main | Main2
+![](img/main.png) | ![](img/main2.png)
+SignUP |
 ![](img/signup.PNG) |
 
 
