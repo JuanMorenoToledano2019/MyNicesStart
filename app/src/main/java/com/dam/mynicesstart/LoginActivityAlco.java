@@ -22,10 +22,21 @@ public class LoginActivityAlco extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_alco);
 
-        TextView mSignUpTextview = (TextView) findViewById(R.id.signup_text);
+        mLoginButton = (Button)findViewById(R.id.btnBoton2);
+        mLoginButton.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(LoginActivityAlco.this, MainActivity.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                startActivity(intent);
 
 
-       mSignUpTextview.setOnClickListener(new View.OnClickListener().OnClickListener(){
+            }
+        });
+
+        mSignUpTextview = (TextView)findViewById(R.id.signup_text);
+       mSignUpTextview.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
                 Intent intent = new Intent(LoginActivityAlco.this, SignUpActivity.class);

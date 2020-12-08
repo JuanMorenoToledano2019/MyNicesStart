@@ -62,7 +62,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.button.MaterialButton
-
+        android:id="@+id/btnBoton2"
         android:text="Go!"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout4"
         android:layout_width="match_parent"
@@ -82,7 +82,6 @@
         android:layout_marginTop="330dp"
         android:textSize="18sp"
         android:text="@string/signup_text"
-
         />
 
 
