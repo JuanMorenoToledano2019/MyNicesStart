@@ -68,20 +68,31 @@
     <com.google.android.material.button.MaterialButton
 
         android:id="@+id/signupbutton"
-
-
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout4"
         android:layout_width="match_parent"
+        app:layout_constraintLeft_toLeftOf=""
         android:layout_height="48dp"
         android:textSize="16sp"
+
         style="@style/ButtonStraight"
         >
 
-
-
     </com.google.android.material.button.MaterialButton>
 
+    <com.google.android.material.button.MaterialButton
 
+        android:id="@+id/btnCancelar"
+        android:text="@string/btn_cancelar"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        app:layout_constraintRight_toRightOf=""
+        android:textSize="16sp"
+        android:layout_marginLeft="0dp"
+        style="@style/ButtonStraight"
+        >
+
+    </com.google.android.material.button.MaterialButton>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

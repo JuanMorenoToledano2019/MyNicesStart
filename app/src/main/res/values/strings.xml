@@ -5,4 +5,8 @@
     <string name="email_hint">email</string>
     <string name="signup_button_label">Signup</string>
     <string name="cancel_button_label">Cancelar</string>
+    <string name="signup_text">¿Tienes una cuenta? Registrate</string>
+    <string name="backimage_descripcion">una mujer</string>
+    <string name="btn_cancelar">Cancelar</string>
+    <string name="eslogan">Una acampada Genial</string>
 </resources>
