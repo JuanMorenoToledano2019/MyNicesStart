@@ -25,7 +25,6 @@ public class LoginActivityAlco extends AppCompatActivity {
         TextView mSignUpTextview = (TextView) findViewById(R.id.signup_text);
 
 
-
        mSignUpTextview.setOnClickListener(new View.OnClickListener().OnClickListener(){
             @Override
             public void onClick(View v){
