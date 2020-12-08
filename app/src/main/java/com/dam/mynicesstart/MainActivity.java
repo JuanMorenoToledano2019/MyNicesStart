@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    private SwipeRefreshLayout swipeLayout;
+
     ImageView imgLogin;
 
     @Override
@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
     }
     });
 
-    TextView mycontext = findViewById(R.id.longtap);
+    TextView mycontext = findViewById(R.id.tvToqueLargo);
      registerForContextMenu(mycontext);
 
 
