@@ -15,6 +15,11 @@ import android.widget.TextView;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
 
+/**
+ * Ventana de bienvenida con una animacion y un scrim
+ * @author Juan Moreno Toledano
+ * @see LoginActivityAlco
+ */
 public class SplashActivity extends AppCompatActivity {
 
     @Override
