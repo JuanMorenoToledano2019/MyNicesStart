@@ -9,4 +9,7 @@
     <string name="backimage_descripcion">una mujer</string>
     <string name="btn_cancelar">Cancelar</string>
     <string name="eslogan">Una acampada Genial</string>
+    <string name="app_bar_menu_share">Share</string>
+    <string name="app_bar_menu_bookmark">Bookmark</string>
+    <string name="app_bar_menu_search">Search</string>
 </resources>

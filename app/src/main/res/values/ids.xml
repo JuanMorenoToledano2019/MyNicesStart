@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="editText_main" type="id">username</item>
+    <item name="button_main" type="id">signup_button_label</item>
+    <item name="text_message" type="id">password</item>
+    <item name="button1" type="id">signup_button_label</item>
+</resources>
